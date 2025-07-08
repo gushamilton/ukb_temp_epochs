@@ -6,7 +6,7 @@ pacman::p_load(tidyverse, arrow, RcppRoll, patchwork, lubridate, lme4)
 # --- 2. Load and Prepare Data ---
 # This script assumes the initial data extraction (Part 2 of the research plan)
 # has already been completed, resulting in a parquet file.
-file_path <- "/Users/fh6520/Downloads/temperature_epochs_first100.parquet"
+file_path <- "***"
 if (!file.exists(file_path)) {
   stop("Data file not found. Please update the 'file_path' variable.")
 }
