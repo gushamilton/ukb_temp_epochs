@@ -1,0 +1,30 @@
+centre_id	centre_name	short_name	gridx	gridy
+10003	Altrincham Assessment Centre		3770	3880
+11001	Manchester Assessment Centre	Manchester	3837	3965
+11002	Oxford Assessment Centre	Oxford	4511	2060
+11003	Cardiff Assessment Centre	Cardiff	3175	1793
+11004	Glasgow Assessment Centre	Glasgow	2590	6661
+11005	Edinburgh Assessment Centre	Edinburgh	3254	6740
+11006	Stoke Assessment Centre	Stoke	3885	3475
+11007	Reading Assessment Centre	Reading	4714	1736
+11008	Manchester North Assessment Centre	Bury	3806	4106
+11009	Newcastle Assessment Centre	Newcastle	4246	5639
+11010	Leeds Assessment Centre	Leeds	4300	4336
+11011	Bristol Assessment Centre	Bristol	3590	1731
+11012	Barts Assessment Centre	Barts	5320	1820
+11013	Nottingham Assessment Centre	Nottingham	4572	3393
+11014	Sheffield Assessment Centre	Sheffield	4352	3876
+11015	Leicester Assessment Centre	Leicester	4585	3045
+11016	Liverpool Assessment Centre	Liverpool	3347	3906
+11017	Middlesbrough Assessment Centre	Middlesbrough	4495	5203
+11018	Hounslow Assessment Centre	Hounslow	5130	1754
+11019	Barking Assessment Centre	Barking	5443	1845
+11020	Croydon Assessment Centre	Croydon	5325	1657
+11021	Birmingham Assessment Centre	Birmingham	4069	2869
+11022	Swansea Mobile Assessment Centre	Swansea	2652	1923
+11023	Wrexham Mobile Assessment Centre	Wrexham	3335	3504
+11024	Cheadle Repeat Assessment Centre	Cheadle Re-assess	3880	3887
+11025	Cheadle Imaging Centre	Cheadle Pilot IC	3880	3887
+11026	Reading Imaging Centre	Reading IC	4650	1718
+11027	Newcastle Imaging Centre	Newcastle IC	4268	5639
+11028	Bristol Imaging Clinic	Bristol IC	3590	1731
