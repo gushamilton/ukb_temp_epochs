@@ -11,7 +11,7 @@ suppressPackageStartupMessages({
 
 # ------------- user‐tunable params -----------------------------------------
 max_repeats <- 400     # ≤ this many repeat participants for ICC calc
-corr_cutoff <- 0.80    # drop phenotypes with |r| > cutoff
+corr_cutoff <- 0.70    # drop phenotypes with |r| > cutoff
 min_repeat_subs <- 20  # must have ≥ this many repeat subjects after QC
 
 # ------------- file paths ---------------------------------------------------

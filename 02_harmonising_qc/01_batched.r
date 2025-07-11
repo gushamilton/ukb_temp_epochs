@@ -31,7 +31,7 @@ LOCATION_FILE_PATH    <- "data_participant.tsv"
 OUTPUT_DIR            <- "phenotype_blocks"          # local directory for TSVs
 
 BLOCK_SIZE   <- 1000     # participants per block
-START_BLOCK  <- 1       # change to restart
+START_BLOCK  <- 20       # change to restart
 DX_FOLDER    <- "/temp_ukb_cohorts/"                 # ***trailing slash required***
 
 # ---- DNAnexus project --------------------------------------------------------
@@ -42,6 +42,8 @@ DX_PROJECT_ID <- Sys.getenv(
 
 dir.create(OUTPUT_DIR, showWarnings = FALSE)
 
+
+options(future.rng.onMisuse = "warning") 
 plan(multisession)
 cat(sprintf("Parallel processing enabled with %d workers.\n", nbrOfWorkers()))
 
@@ -274,3 +276,10 @@ for (blk in START_BLOCK:n_blocks) {
 }
 
 cat("\n--- ALL BATCH PROCESSING COMPLETE ---\n")
+
+# at the very bottom of your *.R script, _after_ everything else:
+job <- Sys.getenv("DX_JOB_ID")                    # DNAnexus job ID inside the container :contentReference[oaicite:1]{index=1}
+if (nzchar(job)) {
+  message("Terminating DNAnexus job: ", job)
+  system2("dx", c("terminate", job))
+}
